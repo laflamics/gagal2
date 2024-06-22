@@ -28,12 +28,16 @@
             padding: 20px;
         }
 
-        header {
+           header {
+            position: relative; /* Tambahkan posisi relatif untuk header */
+            background-image: url('darkblue.jpg'); /* Ganti background image header */
+            background-size: cover;
+            background-position: center;
+            z-index: 1; /* Pastikan z-index yang cukup tinggi agar tetap di atas konten lain */
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 20px 0;
-            background-color: #333;
             color: #fff;
         }
 
