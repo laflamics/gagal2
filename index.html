@@ -32,7 +32,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 10px 0;
+            padding: 20px 0;
             background-color: #333;
             color: #fff;
         }
@@ -42,20 +42,16 @@
             height: auto;
         }
 
-        header h1 {
-            font-size: 2rem;
-        }
-
-        nav ul {
+        header nav ul {
             display: flex;
             list-style: none;
         }
 
-        nav ul li {
+        header nav ul li {
             margin: 0 15px;
         }
 
-        nav ul li a {
+        header nav ul li a {
             color: #fff;
             text-decoration: none;
             font-size: 1rem;
@@ -133,6 +129,24 @@
             color: #666;
         }
 
+        .about, .contact {
+            background-color: #fff;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2, .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about p, .contact p {
+            font-size: 1rem;
+            color: #666;
+        }
+
         footer {
             background-color: #333;
             color: #fff;
@@ -149,7 +163,6 @@
     <header>
         <div class="container">
             <img src="La_Flamics.png" alt="La Flamics Logo" class="logo">
-            <h1>Rubah Kehidupanmu Sekarang Juga</h1>
             <nav>
                 <ul>
                     <li><a href="#courses">Courses</a></li>
@@ -168,7 +181,7 @@
         </div>
     </section>
 
-    <section class="features">
+    <section class="features" id="courses">
         <div class="feature">
             <h3>Beginner Courses</h3>
             <p>Start your crypto journey with our beginner-friendly courses.</p>
@@ -183,6 +196,20 @@
         </div>
     </section>
 
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>La Flamics is dedicated to providing top-quality cryptocurrency education and resources. Our mission is to empower individuals with the knowledge and tools needed to succeed in the world of digital currencies.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Feel free to reach out to us at <a href="mailto:contact@laflamics.com">contact@laflamics.com</a>.</p>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <p>&copy; 2024 Menguasai Crypto. All rights reserved.</p>
@@ -190,4 +217,3 @@
     </footer>
 </body>
 </html>
-
