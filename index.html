@@ -29,20 +29,36 @@
         }
 
         header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 10px 0;
-            text-align: center;
+            background-color: #333;
+            color: #fff;
         }
 
         header .logo {
-           max-width: 300px; /* Sesuaikan ukuran maksimal lebar logo sesuai kebutuhan */
-        height: auto; /* Biarkan tinggi logo menyesuaikan proporsional dengan lebarnya */
-        margin-right: 10px; /* Untuk memberi ruang antara logo dan teks */
+            max-width: 150px;
+            height: auto;
         }
 
-
         header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
         }
 
         .hero {
@@ -134,6 +150,13 @@
         <div class="container">
             <img src="La_Flamics.png" alt="La Flamics Logo" class="logo">
             <h1>Rubah Kehidupanmu Sekarang Juga</h1>
+            <nav>
+                <ul>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -145,6 +168,21 @@
         </div>
     </section>
 
+    <section class="features">
+        <div class="feature">
+            <h3>Beginner Courses</h3>
+            <p>Start your crypto journey with our beginner-friendly courses.</p>
+        </div>
+        <div class="feature">
+            <h3>Advanced Strategies</h3>
+            <p>Learn advanced trading strategies and market analysis.</p>
+        </div>
+        <div class="feature">
+            <h3>Community Support</h3>
+            <p>Join our community and get support from other learners.</p>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <p>&copy; 2024 Menguasai Crypto. All rights reserved.</p>
@@ -152,3 +190,4 @@
     </footer>
 </body>
 </html>
+
