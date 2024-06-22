@@ -29,9 +29,12 @@
         }
 
         header {
-            background-color: #000;
-            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 20px 0;
+            background-color: #333;
+            color: #fff;
         }
 
         header .logo {
@@ -52,18 +55,10 @@
             color: #fff;
             text-decoration: none;
             font-size: 1rem;
-            text-transform: uppercase;
-            padding: 10px;
-            transition: all 0.3s ease;
-        }
-
-        header nav ul li a:hover {
-            background-color: #333;
-            border-radius: 4px;
         }
 
         .hero {
-            background-image: url('https://www.canva.com/media/avatars/elements/education/_lgAcDZUZnU/2-0Bgx-tG94S2Y49ZgB8-g-background.png');
+            background-image: url('blue.jpg');
             background-size: cover;
             background-position: center;
             height: 600px;
@@ -73,12 +68,12 @@
             text-align: center;
             color: #fff;
             margin-bottom: 30px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         .hero h2 {
             font-size: 3rem;
             margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
         }
 
         .hero p {
@@ -104,23 +99,23 @@
         }
 
         .section {
-            background-color: #0c0c0c;
+            background-color: #fff;
             padding: 40px;
             margin-bottom: 30px;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         .section h2 {
             font-size: 2rem;
             margin-bottom: 20px;
-            color: #fff;
+            color: #333;
             text-transform: uppercase;
         }
 
         .section p {
             font-size: 1rem;
-            color: #ccc;
+            color: #666;
         }
 
         .membership .price {
@@ -130,7 +125,7 @@
         }
 
         footer {
-            background-color: #000;
+            background-color: #333;
             color: #fff;
             text-align: center;
             padding: 20px 0;
@@ -138,6 +133,19 @@
 
         footer p {
             font-size: 0.9rem;
+        }
+
+        /* Custom styles for different sections */
+        #about {
+            color: #fff;
+        }
+
+        #contact {
+            color: #333;
+        }
+
+        #membership {
+            color: #fff;
         }
     </style>
 </head>
