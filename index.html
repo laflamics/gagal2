@@ -1,170 +1,263 @@
-{
-  "objectClassName": "domain",
-  "handle": "79636798_DOMAIN_COM-VRSN",
-  "ldhName": "KRIPTO.COM",
-  "links": [
-    {
-      "value": "https://rdap.verisign.com/com/v1/domain/KRIPTO.COM",
-      "rel": "self",
-      "href": "https://rdap.verisign.com/com/v1/domain/KRIPTO.COM",
-      "type": "application/rdap+json"
-    },
-    {
-      "value": "https://rdap.uniregistrar.com/v1/domain/KRIPTO.COM",
-      "rel": "related",
-      "href": "https://rdap.uniregistrar.com/v1/domain/KRIPTO.COM",
-      "type": "application/rdap+json"
-    }
-  ],
-  "status": [
-    "client delete prohibited",
-    "client renew prohibited",
-    "client transfer prohibited",
-    "client update prohibited"
-  ],
-  "entities": [
-    {
-      "objectClassName": "entity",
-      "handle": "1659",
-      "roles": [
-        "registrar"
-      ],
-      "publicIds": [
-        {
-          "type": "IANA Registrar ID",
-          "identifier": "1659"
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flamics Institute</title>
+    <style>
+        /* Reset styles and base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-      ],
-      "vcardArray": [
-        "vcard",
-        [
-          [
-            "version",
-            {},
-            "text",
-            "4.0"
-          ],
-          [
-            "fn",
-            {},
-            "text",
-            "GoDaddy Online Services Cayman Islands Ltd."
-          ]
-        ]
-      ],
-      "entities": [
-        {
-          "objectClassName": "entity",
-          "roles": [
-            "abuse"
-          ],
-          "vcardArray": [
-            "vcard",
-            [
-              [
-                "version",
-                {},
-                "text",
-                "4.0"
-              ],
-              [
-                "fn",
-                {},
-                "text",
-                ""
-              ],
-              [
-                "tel",
-                {
-                  "type": "voice"
-                },
-                "uri",
-                "tel:+1 4805058800"
-              ],
-              [
-                "email",
-                {},
-                "text",
-                "abuse@uniregistry.com"
-              ]
-            ]
-          ]
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-image: url('1.jpg'); /* Ganti background image header */
+            color: #000; /* Ubah warna teks menjadi hitam */
+            margin: 0;
+            padding: 0;
         }
-      ]
-    }
-  ],
-  "events": [
-    {
-      "eventAction": "registration",
-      "eventDate": "2001-11-12T19:14:26Z"
-    },
-    {
-      "eventAction": "expiration",
-      "eventDate": "2024-11-12T19:14:26Z"
-    },
-    {
-      "eventAction": "last changed",
-      "eventDate": "2023-01-28T03:50:38Z"
-    },
-    {
-      "eventAction": "last update of RDAP database",
-      "eventDate": "2024-06-29T23:42:10Z"
-    }
-  ],
-  "secureDNS": {
-    "delegationSigned": false
-  },
-  "nameservers": [
-    {
-      "objectClassName": "nameserver",
-      "ldhName": "BUY.INTERNETTRAFFIC.COM"
-    },
-    {
-      "objectClassName": "nameserver",
-      "ldhName": "SELL.INTERNETTRAFFIC.COM"
-    }
-  ],
-  "rdapConformance": [
-    "rdap_level_0",
-    "icann_rdap_technical_implementation_guide_0",
-    "icann_rdap_response_profile_0"
-  ],
-  "notices": [
-    {
-      "title": "Terms of Use",
-      "description": [
-        "Service subject to Terms of Use."
-      ],
-      "links": [
-        {
-          "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
-          "type": "text/html"
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
         }
-      ]
-    },
-    {
-      "title": "Status Codes",
-      "description": [
-        "For more information on domain status codes, please visit https://icann.org/epp"
-      ],
-      "links": [
-        {
-          "href": "https://icann.org/epp",
-          "type": "text/html"
+
+        header {
+            position: relative; /* Tambahkan posisi relatif untuk header */
+            background-image: url('1.jpg'); /* Ganti background image header */
+            background-size: cover;
+            background-position: center;
+            z-index: 1; /* Pastikan z-index yang cukup tinggi agar tetap di atas konten lain */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+            color: #fff;
         }
-      ]
-    },
-    {
-      "title": "RDDS Inaccuracy Complaint Form",
-      "description": [
-        "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
-      ],
-      "links": [
-        {
-          "href": "https://icann.org/wicf",
-          "type": "text/html"
+
+        header .logo {
+            max-width: 150px;
+            height: auto;
         }
-      ]
-    }
-  ]
-}
+
+        header nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #000;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .hero {
+            background-image: url('blue.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #000; /* Ubah warna teks menjadi hitam */
+            margin-bottom: 30px;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #2ecc71;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+        }
+
+        .cta-button:hover {
+            background-color: #27ae60;
+        }
+
+        .section {
+            background-image: url('blue.jpg'); /* Menggunakan blue.jpg sebagai background image */
+            background-size: cover;
+            background-position: center;
+            padding: 40px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #000; /* Ubah warna teks menjadi hitam */
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #000; /* Ubah warna teks menjadi hitam */
+            text-transform: uppercase;
+        }
+
+        .section p {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .membership .price {
+            font-size: 1.5rem;
+            color: #27ae60;
+            margin: 20px 0;
+            text-decoration: line-through; /* Menambahkan harga coret */
+        }
+
+        .membership .special-price {
+            font-size: 2rem;
+            color: #e74c3c; /* Ubah warna harga khusus */
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+
+        .video-container video {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="flamics.png" alt="Logo Flamics Institute" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#courses">Kursus</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                    <li><a href="#membership">Bergabung Menjadi Pelajar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Bergabung dengan Flamics Institute Sekarang</h2>
+            <p>Pendidikan Keuangan untuk Fresh Graduate: Pelajari manajemen keuangan penting dan hindari risiko kritis bagi usia 19-30 tahun.</p>
+            <a href="https://discord.com/invite/yxDrf6ge" target="_blank" class="cta-button">Bergabung di Discord</a>
+        </div>
+    </section>
+
+    <section class="video-container">
+        <video controls>
+            <source src="fI.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video tag.
+        </video>
+    </section>
+
+    <section class="section" id="courses">
+        <div class="container">
+            <h2>Kursus Kami</h2>
+            <p>Kami menawarkan kursus yang dirancang khusus untuk fresh graduate untuk mengatasi tantangan keuangan secara efektif.</p>
+            <div class="category">
+                <h3>1. Dasar-Dasar Manajemen Keuangan</h3>
+                <p>Pelajari prinsip-prinsip dasar pengelolaan keuangan pribadi dan investasi.</p>
+            </div>
+            <div class="category">
+                <h3>2. Strategi Menghindari Risiko</h3>
+                <p>Pahami dan hindari risiko keuangan krusial yang dapat mempengaruhi stabilitas keuangan Anda.</p>
+            </div>
+            <div class="category">
+                <h3>3. Perencanaan Investasi Karir</h3>
+                <p>Rencanakan investasi karir Anda dengan bijak untuk keamanan keuangan jangka panjang.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2>Tentang Flamics Institute</h2>
+            <p>Flamics Institute berkomitmen untuk memberdayakan fresh graduate dengan pengetahuan keuangan penting dan keterampilan untuk berkembang dalam dunia ini. Kami memahami pentingnya pendidikan keuangan dini dan menyediakan kursus yang ditargetkan untuk membekali orang muda usia 19-30 tahun dengan alat yang mereka butuhkan untuk mengelola keuangan mereka dengan efektif dan menghindari risiko kritis.</p>
+            <p>Misi kami adalah untuk membentuk generasi individu yang cerdas secara finansial yang dapat membuat keputusan yang terinformasi tentang uang, investasi, dan masa depan mereka.</p>
+            <h3>Mengapa Memilih Flamics Institute?</h3>
+            <ul>
+                <li><strong>Instruktur Ahli:</strong> Belajar dari para profesional industri dengan keahlian dalam manajemen keuangan dan pendidikan.</li>
+                <li><strong>Kurikulum Komprehensif:</strong> Kursus kami mencakup topik esensial yang disesuaikan untuk generasi muda yang memasuki dunia kerja.</li>
+                <li><strong>Pembelajaran Interaktif:</strong> Terlibat dalam pengalaman pembelajaran praktis untuk menerapkan konsep keuangan dalam skenario kehidupan nyata.</li>
+                <li><strong>Dukungan Komunitas:</strong> Bergabunglah dengan komunitas pembelajar yang mendukung untuk berbagi wawasan dan pengalaman.</li>
+            </ul>
+            <p>Di Flamics Institute, kami percaya bahwa pendidikan keuangan dini adalah kunci untuk membangun masa depan yang aman dan sejahtera. Bergabunglah dengan kami hari ini dan mulailah perjalanan Anda menuju kemandirian finansial!</p>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <h2>Hubungi Kami</h2>
+            <p>Jika ada pertanyaan, jangan ragu untuk menghubungi kami!</p>
+            <ul>
+                <li>Email: info@flamicsinstitute.com or flamicsinstitute@gmail.com</li>
+                <li>Address: Jalan Senopati Raya No.8B, RT.6/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="membership">
+        <div class="container">
+            <h2>Bergabung Menjadi Pelajar</h2>
+            <div class="membership">
+                <p class="price">Harga Normal: Rp 6.000.000,-</p>
+                <p class="special-price">Harga Spesial Untuk 100 Pendaftar Pertama: <strong>Rp 4.000.000,-</strong></p>
+                <p>Harga Join Lifetime: <strong>Rp 10.000.000,-</strong></p>
+                <p>Jangan lewatkan kesempatan untuk mendapatkan harga spesial ini! Bergabunglah sekarang untuk memulai perjalanan pendidikan keuangan Anda.</p>
+                <a href="https://forms.gle/kAn7Le5jTN6ioaNv8" target="_blank" class="cta-button">Bergabung Menjadi Pelajar- 1 tahun (Rp 4.000.000,-)</a>
+                <a href="https://forms.gle/nMNuSdTJZnrqVdTh8" target="_blank" class="cta-button" style="margin-left: 20px;">Bergabung Menjadi Pelajar- Lifetime (Rp 10.000.000,-)</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Flamics Institute. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
