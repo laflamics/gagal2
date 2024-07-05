@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisa Pendapatan dengan Skema Insentif Karyawan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .section-title {
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Analisa Pendapatan dengan Skema Insentif Karyawan</h1>
+
+<div class="section-content">
+    <h2 class="section-title">Asumsi dan Data Dasar</h2>
+    <ul>
+        <li><strong>Harga Jual per Porsi:</strong> Rp 45,000 (rata-rata)</li>
+        <li><strong>Margin Kotor:</strong> 35%</li>
+        <li><strong>Biaya Tetap dan Variabel:</strong> Seperti yang telah dijelaskan sebelumnya</li>
+        <li><strong>Biaya-biaya Operasional:</strong> Pajak (11%), Bagi hasil (20%), Biaya karyawan (16%), Maintenance (8%), Marketing (2%), Modal belanja (50%)</li>
+    </ul>
+</div>
+
+<div class="section-content">
+    <h2 class="section-title">Perhitungan Harian dengan Insentif Karyawan</h2>
+
+    <h3>1. Penjualan 20 Porsi per Hari per Cabang</h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Perhitungan</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>Omzet Kotor Harian</td>
+            <td>20 × Rp 45,000</td>
+            <td>Rp 900,000</td>
+        </tr>
+        <tr>
+            <td>Profit Kotor Harian</td>
+            <td>35% × Rp 900,000</td>
+            <td>Rp 315,000</td>
+        </tr>
+        <tr>
+            <td>Pajak</td>
+            <td>11% × Rp 900,000</td>
+            <td>Rp 99,000</td>
+        </tr>
+        <tr>
+            <td>Bagi Hasil Griya Yogya</td>
+            <td>20% × Rp 900,000</td>
+            <td>Rp 180,000</td>
+        </tr>
+        <tr>
+            <td>Omzet Bersih</td>
+            <td>Rp 900,000 - Rp 99,000 - Rp 180,000</td>
+            <td>Rp 621,000</td>
+        </tr>
+        <tr>
+            <td>Insentif Karyawan (Rp 15,000 per karyawan)</td>
+            <td>20 porsi × Rp 15,000</td>
+            <td>Rp 300,000</td>
+        </tr>
+        <tr>
+            <td>Biaya Karyawan</td>
+            <td>16% × Rp 621,000</td>
+            <td>Rp 99,360</td>
+        </tr>
+        <tr>
+            <td>Maintenance</td>
+            <td>8% × Rp 621,000</td>
+            <td>Rp 49,680</td>
+        </tr>
+        <tr>
+            <td>Marketing</td>
+            <td>2% × Rp 621,000</td>
+            <td>Rp 12,420</td>
+        </tr>
+        <tr>
+            <td>Modal Belanja</td>
+            <td>50% × Rp 621,000</td>
+            <td>Rp 310,500</td>
+        </tr>
+        <tr>
+            <td>Total Pengeluaran Tetap</td>
+            <td>Rp 99,360 + Rp 49,680 + Rp 12,420 + Rp 310,500</td>
+            <td>Rp 471,960</td>
+        </tr>
+        <tr>
+            <td>Profit Bersih Harian</td>
+            <td>Rp 621,000 - Rp 471,960</td>
+            <td>Rp 149,040</td>
+        </tr>
+    </table>
+
+    <h3>2. Penjualan 30 Porsi per Hari per Cabang</h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Perhitungan</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>Omzet Kotor Harian</td>
+            <td>30 × Rp 45,000</td>
+            <td>Rp 1,350,000</td>
+        </tr>
+        <tr>
+            <td>Profit Kotor Harian</td>
+            <td>35% × Rp 1,350,000</td>
+            <td>Rp 472,500</td>
+        </tr>
+        <tr>
+            <td>Pajak</td>
+            <td>11% × Rp 1,350,000</td>
+            <td>Rp 148,500</td>
+        </tr>
+        <tr>
+            <td>Bagi Hasil Griya Yogya</td>
+            <td>20% × Rp 1,350,000</td>
+            <td>Rp 270,000</td>
+        </tr>
+        <tr>
+            <td>Omzet Bersih</td>
+            <td>Rp 1,350,000 - Rp 148,500 - Rp 270,000</td>
+            <td>Rp 931,500</td>
+        </tr>
+        <tr>
+            <td>Insentif Karyawan (Rp 30,000 per karyawan)</td>
+            <td>30 porsi × Rp 30,000</td>
+            <td>Rp 900,000</td>
+        </tr>
+        <tr>
+            <td>Biaya Karyawan</td>
+            <td>16% × Rp 931,500</td>
+            <td>Rp 149,040</td>
+        </tr>
+        <tr>
+            <td>Maintenance</td>
+            <td>8% × Rp 931,500</td>
+            <td>Rp 74,520</td>
+        </tr>
+        <tr>
+            <td>Marketing</td>
+            <td>2% × Rp 931,500</td>
+            <td>Rp 18,630</td>
+        </tr>
+        <tr>
+            <td>Modal Belanja</td>
+            <td>50% × Rp 931,500</td>
+            <td>Rp 465,750</td>
+        </tr>
+        <tr>
+            <td>Total Pengeluaran Tetap</td>
+            <td>Rp 149,040 + Rp 74,520 + Rp 18,630 + Rp 465,750</td>
+            <td>Rp 707,940</td>
+        </tr>
+        <tr>
+            <td>Profit Bersih Harian</td>
+            <td>Rp 931,500 - Rp 707,940</td>
+            <td>Rp 223,560</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section-content">
+    <h2 class="section-title">Perhitungan Bulanan untuk 3 Cabang</h2>
+    <p>Misalkan bulan memiliki 30 hari.</p>
+
+    <h3>Penjualan 20 Porsi per Hari per Cabang</h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Perhitungan</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>Profit Bersih Bulanan per Cabang</td>
+            <td>30 × Rp 149,040</td>
+            <td>Rp 4,471,200</td>
+        </tr>
+        <tr>
+            <td>Insentif Karyawan Bulanan untuk 3 Cabang</td>
+            <td>3 × Rp 300,000</td>
+            <td>Rp 900,000</td>
+        </tr>
+        <tr>
+            <td>Profit Bersih Bulanan untuk 3 Cabang</td>
+            <td>3 × (Rp 4,471,200 + Rp 300,000)</td>
+            <td>Rp 13,473,600</td>
+        </tr>
+    </table>
+
+    <h3>Penjualan 30 Porsi per Hari per Cabang</h3>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Perhitungan</th>
+            <th>Jumlah</th>
+        </tr>
+        <tr>
+            <td>Profit Bersih Bulanan per Cabang</td>
+            <td>30 × Rp 223,560</td>
+            <td>Rp 6,706,800</td>
+        </tr>
+        <tr>
+            <td>Insentif Karyawan Bulanan untuk 3 Cabang</td>
+            <td>3 × Rp 900,000</td>
+            <td>Rp 2,700,000</td>
+        </tr>
+        <tr>
+            <td>Profit Bersih Bulanan untuk 3 Cabang</td>
+            <td>3 × (Rp 6,706,800 + Rp 900,000)</td>
+            <td>Rp 20,120,400</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section-content">
+    <h2 class="section-title">Kesimpulan</h2>
+    <ul>
+        <li><strong>Jika Anda mencapai target 20 porsi per hari per cabang:</strong> Total profit bersih bulanan dari 3 cabang adalah sekitar Rp 13,473,600 setelah memperhitungkan insentif karyawan.</li>
+        <li><strong>Jika Anda mencapai target 30 porsi per hari per cabang:</strong> Total profit bersih bulanan dari 3 cabang adalah sekitar Rp 20,120,400 setelah memperhitungkan insentif karyawan.</li>
+    </ul>
+    <p>Ini adalah perhitungan dengan asumsi rata-rata harga jual dan margin kotor yang diberikan. Untuk analisis yang lebih akurat, Anda perlu memasukkan data biaya tetap dan variabel yang lebih spesifik serta memonitor penjualan secara konsisten.</p>
+</div>
+
+</body>
+</html>
